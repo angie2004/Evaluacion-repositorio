@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="content">
+
+    
+        <form action="" id="">
+
+            <div class="formu">
+
+                <h2>Estudiantes</h2>
+            
+                <div class="datos">
+                    <label for="">Ingrese su documento</label>
+                    <input type="text" name="id" id="id" required>
+                </div>
+            
+                <div class="datos">
+                    <label for="">Ingrese la nota 1</label>
+                    <input type="email" name="N1" id="N1" required>
+                </div>
+            
+                <div class="datos">
+                    <label for="">Ingrese la nota 2</label>
+                    <input type="text" name="N2" id="N2" required>
+                </div>
+            
+                <div class="datos">
+                    <label for="">Ingrese la nota 3</label>
+                    <input type="text" name="N3" id="N3" required >
+                </div>
+            
+                <div class="botones">
+            
+                    <button id="listar" type="button" class="btn btn-primary mt-3"> Listar  </button>
+                    <button id="modificar" type="button" class="btn btn-primary mt-3"> Modificar </button>
+                    <button id="eliminar" type="button" class="btn btn-primary mt-3"> Eliminar </button>
+                </div>
+
+            </div>
+            
+        </form>
+            
+            
+            <div class="col-5 m-5 table">
+            
+                <table class="table table-striped" id="tabla">
+            
+                </table>
+            
+            </div>
+
+    </div>    
+
+    <script src="enviar.js"></script>
+    
+</body>
+</html>
